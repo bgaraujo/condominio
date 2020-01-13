@@ -32,10 +32,10 @@ const App = () => {
       </header>
       <div className="col-12">
         <h1>Pendencias</h1>
-        <ul className="grid">
+        <ul>
           {
             pending.map((obj,key)=>
-              <li className="col grid" key={key}>
+              <li className="grid col-12" key={key}>
                 <div className="col-4_sm-12">
                   <label>#{key+1}</label>
                 </div>
