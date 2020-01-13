@@ -1,6 +1,7 @@
 import React , {useState} from 'react';
 import logo from './midia/foto6.jpg';
 import './App.css';
+import 'gridlex'
 
 const App = () => {
   const [pending,setPending] = useState([
@@ -25,26 +26,26 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      <header style={style.header}>
+    <div className="grid">
+      <header className="col-12" style={style.header}>
         <img style={style.header.img} src={logo}/>
       </header>
-      <div>
+      <div className="col-12">
         <h1>Pendencias</h1>
-        <ul>
+        <ul className="grid">
           {
             pending.map((obj,key)=>
-              <li className="flex" key={key}>
-                <div className="flex-item">
+              <li className="col grid" key={key}>
+                <div className="col-4_sm-12">
                   <label>#{key+1}</label>
                 </div>
-                <div className="flex-item">
+                <div className="col-4_sm-12">
                   <label>item:<b>{obj.name}</b></label>
                   <label>data do problema:<b>{date(obj.starttedAt)}</b></label>
                   <label>Ação: <b>{obj.action}</b></label>
                 </div>
-                <div className="flex-item">
-                  <h2>{waiting(obj.starttedAt)}</h2>
+                <div className="col-4_sm-12">
+                  <label>{waiting(obj.starttedAt)}</label>
                   <img src={require('./midia/wa1.gif')}/>  
                 </div>
 
