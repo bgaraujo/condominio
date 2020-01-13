@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/condominio/static/css/main.7c9c3290.chunk.css",
+    "main.js": "/condominio/static/js/main.5e9599bc.chunk.js",
+    "main.js.map": "/condominio/static/js/main.5e9599bc.chunk.js.map",
+    "runtime-main.js": "/condominio/static/js/runtime-main.2530bf0b.js",
+    "runtime-main.js.map": "/condominio/static/js/runtime-main.2530bf0b.js.map",
+    "static/js/2.7e5f57f9.chunk.js": "/condominio/static/js/2.7e5f57f9.chunk.js",
+    "static/js/2.7e5f57f9.chunk.js.map": "/condominio/static/js/2.7e5f57f9.chunk.js.map",
+    "index.html": "/condominio/index.html",
+    "precache-manifest.f2b31d7c8998543100efe54d6e7ec5aa.js": "/condominio/precache-manifest.f2b31d7c8998543100efe54d6e7ec5aa.js",
+    "service-worker.js": "/condominio/service-worker.js",
+    "static/css/main.7c9c3290.chunk.css.map": "/condominio/static/css/main.7c9c3290.chunk.css.map",
+    "static/js/2.7e5f57f9.chunk.js.LICENSE": "/condominio/static/js/2.7e5f57f9.chunk.js.LICENSE",
+    "static/media/foto6.jpg": "/condominio/static/media/foto6.de4dcd7a.jpg",
+    "static/media/wa1.gif": "/condominio/static/media/wa1.47cc5144.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2530bf0b.js",
+    "static/js/2.7e5f57f9.chunk.js",
+    "static/css/main.7c9c3290.chunk.css",
+    "static/js/main.5e9599bc.chunk.js"
+  ]
+}
