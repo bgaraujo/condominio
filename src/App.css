@@ -9,6 +9,7 @@ ul li{
   border: 1px solid #000;
   border-radius: 5px;
   text-align: center;
+  margin-bottom: 10px !important;
 }
 .col{
   margin-bottom: 15px;
@@ -23,4 +24,8 @@ ul li label{
 }
 ul li label b{
   padding-left: 10px;
+}
+#root{
+  width: 95%;
+  margin: 0 auto;
 }
